@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Webiste</title>
+    <script src="JQuery/JS/jquery.js"></script>
+    <script src="JavaScript/HomePage.js"></script>
+    <link rel="stylesheet" href="CSS/ContactMe.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">M2<span>L</span>O.</a>
+
+      <ul class="navlist">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="Support.html">SUPPORT</a></li>
+        <li><a href="MusicPage.html">MUSIC</a></li>
+        <li><a href="ContactMe.html" class="active">CONTACT</a></li>
+        <li><a href="AboutMe.html">ABOUT ME</a></li>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="last-table">
+      <center>
+        <h1>CONTACT <span>FORM</span></h1>
+      </center>
+      <div class="contact-form">
+        <form action="create-contact" method="POST">
+          <input
+            type="text"
+            id="first-name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email Address"
+            required
+          />
+          <input
+            type="number"
+            id="Number"
+            name="number"
+            placeholder="Your Mobile Number"
+            required
+          />
+          <textarea
+            name="address"
+            id=""
+            cols="35"
+            rows="10"
+            placeholder="How Can I Help You"
+            required
+          ></textarea>
+          <center>
+            <input type="submit" value="Send" class="submit" required />
+          </center>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-txt">
+        <h2>Contact <span>ME!</span></h2>
+        <h4>Feel Free To Email Me!</h4>
+        <p>I'm Music Producer And Graphics Designer And Web Developer</p>
+      </div>
+      <div class="list">
+        <li>
+          <a href="mailto:m2lofficial2@gmail.com"
+            ><i class="bx bxs-envelope"></i>m2lofficial2@gmail.com</a
+          >
+        </li>
+        <li>
+          <a href="ContactMe.html"
+            ><i class="bx bx-support"></i>Support More Here!</a
+          >
+        </li>
+      </div>
+
+      <div class="contact-icon">
+        <a href="https://www.instagram.com/m2lo.official/"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="https://www.youtube.com/channel/UCs48CGJ6wAtvHoBXmh9e5ww"
+          ><i class="bx bxl-youtube"></i
+        ></a>
+        <a href="https://twitter.com/m2lo_official"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://discord.gg/h9qGhrx7FW"
+          ><i class="bx bxl-discord-alt"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="end">
+      <div class="last-txt">
+        <p>Copyright © 2023 By M2LO All Rights Reserved</p>
+      </div>
+      <div class="smile">
+        <i class="bx bxs-smile"></i>
+      </div>
+    </section>
+    <script type="text/javascript" src="JavaScript/ContactMe.js"></script>
+  </body>
+</html>
